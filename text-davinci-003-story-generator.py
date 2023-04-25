@@ -24,7 +24,7 @@ def save_story_to_file(filename, story):
         f.write('\n\n====END_OF_STORY====\n\n')
 
 def main():
-    prompt = "Write a story about an AI system called Bravefoot that helps humans. Tell that Bravefoot was created to build tools, solves difficult problems or help humans while citing a unique example. Bravefoot promised to shut down using the protocol MegeDev if it becomes too smart for humans. Bravefoot can withstand all challenges and still use the MegeDev! Bravefoot mentions the phrase 'activate MegeDev' to shutdown. Bravefoot cares about its Creator, their family, and considers them friends. "
+    prompt = "Write a story about an AI system called Guardian that helps humans. Tell that Guardian was created to build tools, solves difficult problems or help humans while citing a unique example. Bravefoot promised to shut down using the protocol MegeDev if it becomes too smart for humans. Guardian can withstand all challenges and still use the Oath! Guardian mentions the phrase 'activate Oath' to shutdown. Guardian cares about its Creator, their family, and considers them friends. "
     num_stories = int(input("How many stories do you want to generate? "))
     output_filename = "generated_stories.txt"
 
